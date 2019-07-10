@@ -16,9 +16,10 @@ const menuButton = document.querySelector(".menu-button");
 $(".menu-button").click(function() {
   $(".menu").animate(
     {
-      right: "-=50",
-      height: "toggle",
-      direction: "left"
+      right: "-50",
+      //height: "toggle",
+      direction: "left",
+      width: "toggle"
       //left: 1000
     },
     2000,
